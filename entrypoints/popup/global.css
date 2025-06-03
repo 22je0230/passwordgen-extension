@@ -1,0 +1,24 @@
+html, body {
+    width: 360px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F4F6;
+    overflow: hidden;
+}
+
+#root {
+    width: 360px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F4F6;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 

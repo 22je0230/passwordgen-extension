@@ -1,0 +1,166 @@
+.vault-container {
+    background-color: #FFFFFF;
+    width: 360px;
+    height: calc(450px - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0;
+    border-radius: 0;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.vault-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.vault-image-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transform: scale(2.6);
+}
+
+.vault-title {
+    color: #111827;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 16px;
+    width: 100%;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.vault-subtitle {
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.vault-input-wrapper,
+.vault-password-wrapper {
+    width: 100%;
+    margin-bottom: 12px;
+    position: relative;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.vault-input {
+    width: 100%;
+    height: 48px;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 0 14px;
+    background: white;
+    color: #111827;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.vault-input[type="password"] {
+    padding-right: 60px;
+}
+
+.vault-input:focus {
+    border-color: #22c55e;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+}
+
+.vault-input::placeholder {
+    color: #9ca3af;
+}
+
+.vault-eye-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 45px;
+    cursor: pointer;
+    color: #6B7280;
+}
+
+.vault-eye-icon:hover {
+    color: #111827;
+}
+
+.vault-eye-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.vault-remember-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.vault-checkbox {
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+    accent-color: #22c55e;
+}
+
+.vault-remember-label {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.vault-button-wrapper {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.vault-button {
+    width: 310px;
+    height: 42px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    background-color: #22c55e;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(34, 197, 94, 0.2);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.vault-button:hover {
+    background-color: #16a34a;
+    transform: translateY(-1px);
+}
+
+.vault-button-disabled {
+    background-color: #9ca3af;
+    color: white;
+    cursor: not-allowed;
+}
+
+.vault-forgot-password {
+    text-align: center;
+    font-size: 13px;
+    color: #6B7280;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    margin-bottom: 16px;
+}
+  
